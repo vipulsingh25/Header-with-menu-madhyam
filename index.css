@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    color: black;
+}
+
+a{
+    padding: 5px;
+    text-decoration: none;
+}
+
+.header1{
+    border-bottom: solid gray 1px;
+}
+
+.header1-menu{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 40px;
+    font-size: small;
+}
+
+.header1-menu li , .header2-menu li{
+    padding: 15px;
+}
+
+.header1-menu li a , .header2-menu a{
+    cursor: pointer;
+}
+
+.header2{
+    display: flex;
+    border-bottom: solid gray 1px;
+}
+
+.navbar-items{
+    width: 100%;
+}
+
+.header2-menu{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 150px;
+}
+
+.header2 div{
+    margin: 30px 0px 10px 20px;
+}
+
+.header2 div img{
+    height: 130px;
+    width: 130px;
+}
+
+.section{
+    background-image: url("image/bg.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.drop1 , .drop2 , .drop3{
+    background-color:burlywood;
+    border-radius: 50px;
+    padding: 30px;
+    position: absolute;
+    right: 50px;
+}
+
+.drop1 div ul , .drop2 div ul , .drop3 div ul{
+    list-style: none;
+}
+
+.drop1 ul li , .drop2 ul li , .drop3 ul li{
+    padding: 12px 12px 12px 0px;
+}
+
+.drop1 div , .drop2 div , .drop3 div{
+    margin-right: 40px;
+}
+
+h4{
+    color: red;
+}
